@@ -24,14 +24,14 @@ var getresult = document.getElementById("result");
 getguessleft.innerHTML = chancesleft;
 
 function randomComputerChoice() {
-//   getresult.innerHTML=" ";
-  chancesleft = 8;
-  Letterguessed = [];
-  blank = [];
+  //getresult.innerHTML=" ";
   //peaknames array is 0,1,2,3,4.
   //peaknames.length gives the length.
   //Math.random chooses the value randomly
   //Math.floor rounds down the number
+  chancesleft = 8;
+  Letterguessed = [];
+  blank = [];
   computerchoice = peaknames[Math.floor(Math.random() * peaknames.length)];
   //for loop will check all the letters the word has and replace it with the blanks.
   //max conditions inside for loop is 3
